@@ -21,13 +21,13 @@ export function Landing() {
 
   return (
     <Container fluid style={{ padding: 0 }}>
-      <NavBar links={ navItems.links } />
+      <NavBar links={navItems.links} />
       <Hero />
       <Container fluid style={{ backgroundColor: "#001E3C" }}>
         <Features />
       </Container>
       <RegisterCTA />
-      <Footer data={ footerInfo.data }/>
+      <Footer data={footerInfo.data} />
     </Container>
   );
 }

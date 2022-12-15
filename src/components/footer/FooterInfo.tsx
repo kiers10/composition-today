@@ -1,14 +1,14 @@
 export const footerInfo = {
-    "data": [
-      {
-        "title": "About",
-        "links": [
-          {
-            "label": "Meet the Team",
-            "link": "/about"
-          },
-        ]
-      },
+  data: [
+    {
+      title: "About",
+      links: [
+        {
+          label: "Meet the Team",
+          link: "/about",
+        },
+      ],
+    },
     //   {
     //     "title": "Project",
     //     "links": [
@@ -30,14 +30,14 @@ export const footerInfo = {
     //       }
     //     ]
     //   },
-      {
-        "title": "Project",
-        "links": [
-          {
-            "label": "GitHub",
-            "link": "#"
-          },
-        ]
-      }
-    ]
-  };
+    {
+      title: "Project",
+      links: [
+        {
+          label: "GitHub",
+          link: "#",
+        },
+      ],
+    },
+  ],
+};

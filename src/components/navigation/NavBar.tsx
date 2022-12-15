@@ -85,7 +85,6 @@ const useStyles = createStyles((theme) => ({
   logoGroup: {
     gap: 5,
   },
-
 }));
 
 interface HeaderActionProps {
@@ -168,7 +167,7 @@ export function NavBar({ links }: HeaderActionProps) {
             className={classes.burger}
             size="sm"
           />
-          <Group spacing="xs" className={classes.logoGroup} >
+          <Group spacing="xs" className={classes.logoGroup}>
             <a
               href={"/"}
               className={classes.title}
